@@ -10,5 +10,3 @@ if boolean == "yes":
     print("awesome")
 else:
     print("please try again")
-for i in data:
-    print(data.get(i))
