@@ -1,5 +1,6 @@
-def describe_city(city ,country = "Egypt"):
-    print(f"{city} is in {country}")
-describe_city("Cairo")
-describe_city(city="Tanta")
-describe_city(city="Milano")
+def make_album(artist,album=None):
+    info = {"artist_name":artist,"album_name":album}
+    return info
+print(make_album("Jake"))
+print(make_album("Bob"))
+print(make_album("Hazem"))
