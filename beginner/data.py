@@ -5,6 +5,6 @@ print(f"Welcome {data['user name']}!, your email is {data['email']}. \n")
 print("is it correct?")
 boolean = (input())
 if boolean == "yes":
-    print("awesome")
+    print("awesome!")
 else:
     print("please try again")
