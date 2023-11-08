@@ -1,6 +1,12 @@
 from pathlib import Path
 import json
-Favourite_number = int(input("input your favourite number please: "))
-path = Path("number.json")
-content = json.dumps(Favourite_number)
-path.write_text(content)
+path = Path("still_learning/number.json")
+if path.exists():
+    content = path.read_text()
+    favourite_number = json.loads(content)
+    print(f"your favourite number is: {favourite_number}")
+else:
+    favourite_number = int(input("input your favourite number"))
+    content = json.dumps(favourite_number)
+    path.write_text(content)
+    print(f"we will remember your favourite number next time: {favourite_number}")
