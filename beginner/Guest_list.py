@@ -1,0 +1,11 @@
+guests = ["Cristiano Ronaldo","Lionel Messi","Justin Bieber"]
+print(f"hello {guests[1]}, I would like to talk with you a bit")
+cannot_make_it = guests.pop(1)
+print(f"{cannot_make_it} Unfortunatley wouldn't be able to make it tonight")
+guests.insert(1, "Mohamed Salah")
+print(f"hello {guests[2]}, I would like to talk with you a bit")
+print("Great news i've found a bigger table so i'm inviting more people")
+guests.insert(0, "Zizo")
+guests.insert(2, "nani")
+guests.append("Dzeko")
+print(guests)
