@@ -14,4 +14,4 @@ while program_active:
 print("poll has ended")
 #** printing each answer
 for name, place in poll_taker.items():
-    print(f"{name}'s dream vacation is {place}")
+    print(f"{name.title()}'s dream vacation is {place.title()}")
