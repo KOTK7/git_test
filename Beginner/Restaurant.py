@@ -5,8 +5,8 @@ class Restaurant:
     def describe_restaurant(self):
             print(self.restaurant_name, self.cuisine_type)
     def open_restaurant(self):
-        open = f"The {self.restaurant_name} is open!"
-        print(open) 
+        open_message = f"The {self.restaurant_name} is open!"
+        print(open_message) 
 restaurant = Restaurant("Pizza Hut", "Italian")
 restaurant.open_restaurant()
 restaurant.describe_restaurant()
