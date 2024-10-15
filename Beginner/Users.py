@@ -21,7 +21,13 @@ class Users:
     def reset_login_attempts(self):
         self.login_attempts = 0
         print(f"Login attempts for {self.username} have been reset.")
-
+class Admin(Users):
+    def __init__(self, first_name, last_name, age, username):
+        super().__init__(first_name, last_name, age, username)
+        self.priviliges = ["can ban user", "can add post"," can delete post"]
+    def show_privilges(self):
+        print(f"Admin can do: {", ".join(self.priviliges)}")
+"""
 # Create user1
 user1 = Users("Jack", "John", 30, "JackJohn30")
 user1.describe_user()
@@ -46,3 +52,6 @@ user2.increment_login_attempts()  # Increment by 1
 
 # Reset login attempts for user2
 user2.reset_login_attempts()
+"""
+IamAdmin = Admin("Zeko","Paul",24,"zekopaul24")
+IamAdmin.show_privilges()
