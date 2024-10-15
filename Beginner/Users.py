@@ -59,4 +59,4 @@ user2.increment_login_attempts()  # Increment by 1
 user2.reset_login_attempts()
 """
 IamAdmin = Admin("Zeko","Paul",24,"zekopaul24")
-IamAdmin.privilige.show_priviliges()
+# IamAdmin.privilige.show_priviliges()
