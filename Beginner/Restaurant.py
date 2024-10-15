@@ -25,7 +25,14 @@ class Restaurant:
     def total_with_updates(self, additional_served):
         total = self.number_served + additional_served
         return total
+class IceCreamStand(Restaurant):
+    def __init__(self, restaurant_name, cuisine_type):
+        super().__init__(restaurant_name, cuisine_type)
+        self.flavours = ["Chocolate", "Vanilla", "Mint Chocolate"]
 
+    def Flavours(self):
+        print(f"We have: {', '.join(self.flavours)}. What would you like to have?")
+"""
 # Creating restaurant instances and calling methods
 restaurant1 = Restaurant("Pizza Hut", "Italian")
 restaurant1.open_restaurant()
@@ -56,3 +63,7 @@ restaurant3.increment_number_served(100)
 # Calculate total served with additional customers
 total_served = restaurant3.total_with_updates(10)  # For example, 10 more customers
 print(f"Total customers served at {restaurant3.restaurant_name} (including updates): {total_served}")
+"""
+# Creating an instance of IceCreamStand
+IwantIceCream = IceCreamStand("My Ice Cream Stand", "Ice Cream")
+IwantIceCream.Flavours()
