@@ -27,7 +27,7 @@ class Admin(Users):
         self.privilige = Priviliges()
 class Priviliges:
     def __init__(self):
-        self.priviliges = ["can ban user", "can add post"," can delete post"]
+        self.priviliges = ["can ban user","can add user", "can reset settings", "can add post"," can delete post"]
     def show_priviliges(self):
         print(f"Admin can do: {', '.join(self.priviliges)}")
 
