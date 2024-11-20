@@ -7,6 +7,7 @@ user_profile = build_profile(
     "Johns",
     Status = "single",
     Student = "Nope")
+
 print(f"Hi my name is: {user_profile['first name']}"
     f" {user_profile['last name']}"
     f" I'm {user_profile['Status']} and i'm not a Student")
