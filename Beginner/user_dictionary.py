@@ -14,15 +14,14 @@ def get_stored_user_info(path):
 def get_new_user_info(path):
     """Get information from a new user."""
     username = input("What is your name? ")
-    game = input("What's your favorite game? ")
-    animal = input("What's your favorite animal? ")
+    game = input("What's your favourite game? ")
+    animal = input("What's your favourite animal? ")
 
     user_dict = {
         'username': username,
         'game': game,
         'animal': animal,
     }
-
     contents = json.dumps(user_dict)
     path.write_text(contents)
     return user_dict
