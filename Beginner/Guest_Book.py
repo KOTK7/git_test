@@ -4,11 +4,10 @@ active = True
 guest_book = []
 
 while active:
-    q = input("Enter q to exit or if you want to add someone else's name just enter any key: ")
-    if q == "q":
+    Name = input("If you want to quit enter q. \nEnter your name please:\n")
+    if Name == "q":
         break
     else:
-        Name = input("Enter your name please: ")
         guest_book.append(Name)
 
 path = Path("guest_book.txt")
