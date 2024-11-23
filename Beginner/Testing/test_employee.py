@@ -1,4 +1,4 @@
-from employee import Employee
+from Testing.employee import Employee
 def test_give_raise():
     employee = Employee("John","Jack", 50000)
     employee.give_raise()
