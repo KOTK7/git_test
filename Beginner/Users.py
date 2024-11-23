@@ -24,12 +24,12 @@ class Users:
 class Admin(Users):
     def __init__(self, first_name, last_name, age, username):
         super().__init__(first_name, last_name, age, username)
-        self.privilige = Priviliges()
-class Priviliges:
+        self.privilige = Privileges()
+class Privileges:
     def __init__(self):
-        self.priviliges = ["can ban user","can add user", "can reset settings", "can add post"," can delete post"]
-    def show_priviliges(self):
-        print(f"Admin can do: {', '.join(self.priviliges)}")
+        self.privileges = ["can ban user","can add user", "can reset settings", "can add post"," can delete post"]
+    def show_privileges(self):
+        print(f"Admin can do: {', '.join(self.privileges)}")
 
 
 """
@@ -59,4 +59,4 @@ user2.increment_login_attempts()  # Increment by 1
 user2.reset_login_attempts()
 """
 IamAdmin = Admin("Zeko","Paul",24,"zekopaul24")
-# IamAdmin.privilige.show_priviliges()
+# IamAdmin.privilige.show_privileges()
