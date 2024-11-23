@@ -24,7 +24,7 @@ class Users:
 class Admin(Users):
     def __init__(self, first_name, last_name, age, username):
         super().__init__(first_name, last_name, age, username)
-        self.privilige = Privileges()
+        self.privilege = Privileges()
 class Privileges:
     def __init__(self):
         self.privileges = ["can ban user","can add user", "can reset settings", "can add post"," can delete post"]
