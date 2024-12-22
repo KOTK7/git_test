@@ -1,4 +1,0 @@
-In python you can store data in forms of (lists, sets, tuples, dictionaries, variables)
-In python you can import modules to help you with your code
-In python you can build web apps, scripts and many more
-In python you can make loops to help you iterate code several times
