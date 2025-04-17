@@ -1,0 +1,28 @@
+3 Exercises for chapters 1-8 for python crash course:
+
+
+
+🧭 Exercise 1: Virtual Travel Planner ✅
+1 - Ask the user to enter three dream travel destinations. Store them in a list.
+
+2 - For each destination, ask the user how they would like to get there (e.g., car, plane, train). Store the responses in a dictionary.
+
+3 - Create a function to display a formatted travel itinerary using the data collected.
+
+
+
+🍕 Exercise 2: Custom Pizza Order System ✅
+1 - Prompt the user to choose a pizza size (small, medium, large). Use a dictionary to assign base prices to each.
+
+2 - Ask the user to enter toppings one at a time until they type "done". Store toppings in a list and reject duplicates.
+
+3 - Create a function to calculate and return the total cost. Use another function to print an order summary.
+
+
+
+🧠 Exercise 3: Python Basics Quiz ✅
+1 - Create a dictionary with at least 3 Python-related questions as keys and correct answers as values.
+
+2 - Write a function to ask the user each question, check the answer, and keep score.
+
+3 - After all questions, display the final score and a message based on performance (e.g., "Great job!", "Keep practicing!").
