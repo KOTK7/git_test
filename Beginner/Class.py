@@ -16,3 +16,11 @@ class Dog:
 dog1 = Dog('Max', '4')
 
 dog1.who()
+
+
+class Puppy(Dog):
+    def __init__(self, name, age):
+        super().__init__(name,age)
+
+puppy = Puppy('little max', '1.5')
+puppy.who()
