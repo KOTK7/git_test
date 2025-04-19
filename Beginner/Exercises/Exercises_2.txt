@@ -1,0 +1,45 @@
+🔸 Exercise 1: Event Guest Manager
+Scenario: You're organizing an event and want to keep track of who’s coming, their preferences, and assign them to tables.
+
+Tasks:
+
+Create a list of guest names.
+
+Create a dictionary storing each guest’s meal preference.
+
+Write a function that sends a personalized invitation message to each guest using a loop.
+
+Use a class Guest with attributes like name, meal_preference, and table_number, and a method to display the guest's full info.
+
+
+
+🔸 Exercise 2: Budget Tracker App
+Scenario: You’re building a personal finance tracker.
+
+Tasks:
+
+Store several expense categories (like food, rent, entertainment) in a list.
+
+Use a dictionary to record expenses in each category.
+
+Write a function that adds a new expense and updates the dictionary.
+
+Create a class Budget with methods to add expenses, view a summary, and check if you're over budget in any category.
+
+Use conditionals to print warnings if a category goes over a preset limit.
+
+
+🔸 Exercise 3: Pet Adoption Center System
+Scenario: You're designing a simple system for a pet adoption center.
+Tasks:
+
+Make a list of available pets (names or types).
+
+Store info about each pet (like age, breed, availability) in a dictionary.
+
+Write a function that searches for pets by type or age.
+
+Create a class Pet with attributes like name, species, age, adopted (True/False), and methods like adopt() and display_info().
+
+Use loops to display all available pets, and allow a user to adopt one.
+
