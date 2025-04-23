@@ -1,4 +1,4 @@
-🔸 Exercise 1: Event Guest Manager
+🔸 Exercise 1: Event Guest Manager ✅
 Scenario: You're organizing an event and want to keep track of who’s coming, their preferences, and assign them to tables.
 
 Tasks:

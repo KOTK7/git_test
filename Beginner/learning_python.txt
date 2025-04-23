@@ -1,0 +1,3 @@
+In Python you can make a string 
+In Python you can make a function
+In Python you can make a set
