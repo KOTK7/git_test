@@ -13,7 +13,7 @@ Use a class Guest with attributes like name, meal_preference, and table_number, 
 
 
 
-🔸 Exercise 2: Budget Tracker App
+🔸 Exercise 2: Budget Tracker App ✅
 Scenario: You’re building a personal finance tracker.
 
 Tasks:
